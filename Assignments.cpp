@@ -2,7 +2,7 @@
 #include <fstream>
 #include <numeric>
 
- // Задание 2: Проверка на вхождение (set)
+//задание 2: проверка на вхождение (set)
 void AssignmentManager::RunTask2() {
     std::cout << "\n--- Задание 2 (YES/NO) ---" << std::endl;
     int number;
@@ -16,8 +16,7 @@ void AssignmentManager::RunTask2() {
         }
     }
 }
-
-// Задание 3: Общие буквы
+//задание 3: общие буквы
 void AssignmentManager::RunTask3() {
     std::cout << "\n--- Задание 3 (Общие буквы) ---" << std::endl;
     std::vector<std::string> words;
@@ -41,8 +40,7 @@ void AssignmentManager::RunTask3() {
     for (char c : common) std::cout << c;
     std::cout << std::endl;
 }
-
-// Задание 4: Порядковый номер слова
+//задание 4: порядковый номер слова
 void AssignmentManager::RunTask4() {
     std::cout << "\n--- Задание 4 (Счетчик слов) ---" << std::endl;
     std::map<std::string, int> counter;
@@ -53,8 +51,7 @@ void AssignmentManager::RunTask4() {
     }
     std::cout << std::endl;
 }
-
-// Задание 8: Работа с файлом и алгоритмами
+//Задание 8: работа с файлом и алгоритмами
 void AssignmentManager::RunTask8() {
     std::cout << "\n--- Задание 8 (Файл и Алгоритмы) ---" << std::endl;
     std::vector<int> data;
